@@ -3512,6 +3512,8 @@
             .rp-chip { display: inline-flex; align-items: center; gap: 6px; padding: 7px 14px; border-radius: 20px; border: 1px solid rgba(148,163,184,.4); cursor: pointer; font-size: 13px; font-weight: 600; user-select: none; }
         .rp-chip:has(input:checked) { background: rgba(99,102,241,.2); border-color: #818cf8; }
 
+        @media (max-width: 860px) {
+
         /* ═══════════════════════════════════════════════
            DECO-STYLE THEME (TP-Link Deco app look)
            html.deco দিয়ে scope করা — body.className reset হলেও থাকে
@@ -3930,10 +3932,7 @@
             html.deco .pop { border-radius: 24px 24px 0 0; }
         }
 
-        @media (min-width: 861px) {
-            html.deco #mainContent { padding: 18px 22px 60px; }
-            html.deco .hm-card, html.deco .hm-isp-card { padding: 22px; }
-            html.deco .sb-item { font-size: 15px; }
+
         }
 
         @media print {
